@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Roboto:wght@100&display=swap');
+
+
+a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 1px 1px black;
+	font-weight: bold;
+	cursor: pointer;
+
+
+
+}
+a:hover{
+	color: #A4303F; 
+	text-decoration: underline ;
+	
+}
+
+body{
+	background:linear-gradient(#FF8C00,#FFA500);
+	
+}
+
+
+	
+
+#escudo{
+	position: absolute;
+	width:220px; 
+	left: 25px;
+	margin-top:0px;
+
+}
+#fundo{
+	background:#3A405A;
+	width: 1210px;
+	height:50px;
+	margin-top: 1px;
+	margin-left: 138px;
+	border-radius: 2px;
+	box-shadow:  1px 1px 4px black;
+	
+	
+}
+figcaption{
+	position: relative;
+	top: -120px;
+}
+#lista{
+	margin-left: 450px;
+	cursor: pointer;
+	
+
+}
+.linkmenu{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 85px;
+	font-size: 28px;
+	font-family: 'Bodoni Moda', serif;
+
+	
+	
+}
+#semove{
+	margin-top: -43px;
+	margin-left:390px;
+	
+}
+#aparece{
+
+	padding: 5px;
+	font-size: 28px;
+	margin-left: 330px;
+	font-family: 'Bodoni Moda', serif;
+
+}
+
+.linkmenu2{
+	display: inline-block;
+	padding: 10px;
+	font-size: 28px;
+	font-family: 'Bodoni Moda', serif;
+	
+	
+}
+
+#semove2{
+	margin-left: 920px;
+	margin-top: -45px;
+}
+#escondido{
+	display: none;
+	background:#3A405A;
+	margin-left: 90px;
+	margin-top: -10px;
+	width: 200px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Bodoni Moda', serif;
+
+}
+
+
+
+
+#pistola{
+
+	width: 1300px;
+	height: 500px;
+	margin-left: 48px;
+	
+
+	
+
+
+	
+
+
+}
+
+#controlerodape{
+	background:linear-gradient(#3A405A,#3A407A) ;
+	width:1349px; 
+	height:130px;
+	margin-top: -5px;
+
+
+}
+#rodape{
+	text-align:center;
+	font-size: 35px;
+	padding: 20px;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	font-family: 'Bodoni Moda', serif;
+
+
+	
+
+}
