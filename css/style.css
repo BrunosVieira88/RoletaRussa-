@@ -1,10 +1,11 @@
+<<<<<<< Updated upstream
+
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Roboto:wght@100&display=swap');
-
-
+/*aqui defino a mudança nas tags de links */
 a{
 	text-decoration: none;
 	color: white;
-	text-shadow: 2px 1px 1px black;
+	text-shadow: 2px 3px 5px black;
 	font-weight: bold;
 	cursor: pointer;
 
@@ -16,22 +17,15 @@ a:hover{
 	text-decoration: underline ;
 	
 }
-
-body{
-	background:linear-gradient(#FF8C00,#FFA500);
-	
-}
-
-
-	
-
-#escudo{
+/*aqui mudo as configurações do Roleta Russa no menu*/
+#roletarussalogo{
 	position: absolute;
 	width:220px; 
 	left: 25px;
 	margin-top:0px;
 
 }
+/*define o fundo do menu*/
 #fundo{
 	background:#3A405A;
 	width: 1210px;
@@ -41,33 +35,37 @@ body{
 	border-radius: 2px;
 	box-shadow:  1px 1px 4px black;
 	
-	
 }
+/*se quiser mexer na posição de todas as frases no menu é aqui*/
 figcaption{
 	position: relative;
 	top: -120px;
 }
+/*alinha home e informativo*/
 #lista{
-	margin-left: 450px;
+	margin-left: 400px;
 	cursor: pointer;
 	
 
 }
+/*faz todo o stylo do menu*/
 .linkmenu{
 	display: inline-block;
 	padding: 10px;
 	margin-top: 85px;
 	font-size: 28px;
 	font-family: 'Bodoni Moda', serif;
+	margin-left: 10px;
 
-	
-	
 }
+
+/*aqui posiciono o Ligas no lugar*/
 #semove{
 	margin-top: -43px;
 	margin-left:390px;
 	
 }
+/*aqui estylo da parte oculta */
 #aparece{
 
 	padding: 5px;
@@ -76,7 +74,19 @@ figcaption{
 	font-family: 'Bodoni Moda', serif;
 
 }
+/*formatando fundo e diminuindo as letras do menu oculto*/
+.diminui{
+	font-size: 18px;
+	margin-top: 5px;
+	background-color: #3A405A;
+	width: 150px;
+	box-shadow: 2px 2px 3px black;
+	border-radius: 10px;
+	text-align: center;
+	padding: 3px;
 
+}
+/*Configura Ligas*/
 .linkmenu2{
 	display: inline-block;
 	padding: 10px;
@@ -85,11 +95,13 @@ figcaption{
 	
 	
 }
-
+/*deixa no lugar ligas e campeonato*/
 #semove2{
-	margin-left: 920px;
+	margin-left: 860px;
 	margin-top: -45px;
 }
+
+/*mantem mata mata liga principal em oculto*/
 #escondido{
 	display: none;
 	background:#3A405A;
@@ -104,21 +116,9 @@ figcaption{
 
 
 
-#pistola{
-
-	width: 1300px;
-	height: 500px;
-	margin-left: 48px;
-	
-
-	
 
 
-	
-
-
-}
-
+/*Configura o rodape da pagina*/
 #controlerodape{
 	background:linear-gradient(#3A405A,#3A407A) ;
 	width:1349px; 
@@ -139,3 +139,195 @@ figcaption{
 	
 
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Roboto:wght@100&display=swap');
+
+
+body{
+	background:linear-gradient(#FF8C00,#FFA500);
+	
+}
+a{
+	cursor: pointer;
+}
+
+#video{
+
+	width: 1300px;
+	height: 500px;
+	
+
+	
+}
+#movimentavideo{
+	margin-left: 49px;
+	background: grey;
+	box-shadow: 2px 2px 5px black;
+}
+.aliga{
+	
+	height: 400px;
+	width:  auto;
+	margin-left: 40px;
+
+}
+#primeira{
+	background-image:url(../imagens/Rrussa.jpg);
+	background-repeat: no-repeat;
+	background-size: 310px 335px;
+	width: 300px;
+	height: 335px;
+	float: left;
+	border-radius: 13px;
+	margin-top: 5px;
+	box-shadow: 3px 3px 9px black;
+	border:solid 1px black;
+
+}
+#primeira:hover{
+	
+	background-position: 50% 50%;
+	-webkit-transform:scale(1.1);
+
+}
+#segunda{
+	background-image:url(../imagens/trofeu.jpg);
+	background-repeat: no-repeat;
+	background-size: 310px 335px;
+	width: 300px;
+	height: 335px;
+	float: left;
+	border-radius: 13px;
+	margin-top: 5px;
+	box-shadow: 3px 3px 9px black;
+	border:solid 1px black;
+
+}
+#segunda:hover{
+
+	background-position: 50% 50%;
+	-webkit-transform:scale(1.1);
+
+}
+
+#terceira{
+	background-image:url(../imagens/eliminatoria.jpg);
+	background-repeat: no-repeat;
+	background-size: 310px 335px;
+	width: 300px;
+	height: 335px;
+	float: left;
+	border-radius: 13px;
+	margin-top: 5px;
+	box-shadow: 3px 3px 9px black;
+	border:solid 1px black;
+
+}
+#terceira:hover{
+
+	background-position: 50% 50%;
+	-webkit-transform:scale(1.1);
+
+}
+#quarta{
+	background-image:url(../imagens/pistola.jpg);
+	background-repeat: no-repeat;
+	background-size: 310px 335px;
+	width: 300px;
+	height: 335px;
+	float: left;
+	border-radius: 13px;
+	margin-top: 5px;
+	box-shadow: 3px 3px 9px black;
+	border:solid 1px black;
+
+}
+#quarta:hover{
+
+	background-position: 50% 50%;
+	-webkit-transform:scale(1.1);
+
+}
+#quinta{
+	background-image:url(../imagens/duas.jpg);
+	background-repeat: no-repeat;
+	background-size: 310px 335px;
+	width: 300px;
+	height: 335px;
+	float: left;
+	border-radius: 13px;
+	margin-top: 5px;
+	box-shadow: 3px 3px 9px black;
+	border:solid 1px black;
+
+}
+#quinta:hover{
+
+	background-position: 50% 50%;
+	-webkit-transform:scale(1.1);
+
+}
+#sexta{
+	background-image:url(../imagens/Rrussa.jpg);
+	background-repeat: no-repeat;
+	background-size: 310px 335px;
+	width: 300px;
+	height: 335px;
+	float: left;
+	border-radius: 13px;
+	margin-top: 5px;
+	box-shadow: 3px 3px 9px black;
+	border:solid 1px black;
+
+}
+#sexta:hover{
+
+	background-position: 50% 50%;
+	-webkit-transform:scale(1.1);
+
+}
+.aliga2{
+
+	width: 300px;
+	height: 300px;
+	float: left;
+	border-radius: 13px;
+	margin-top: 20px;
+	box-shadow: 3px 3px 9px black;
+
+}
+.meio{
+	margin-left: 10px;
+	margin-top: 25px;
+	font-size: 20px;
+
+
+}
+.espaçointerno{
+	width: 900px;
+	padding: 20px;
+	height: 300px;
+	border:1px solid black;
+	margin-left: 320px;
+	margin-top: 50px;
+	text-align: justify;
+	box-shadow: 1px 1px 3px black;
+	font-size: 16px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	background-color: #3A405A;
+	line-height: 28px;
+	border-radius: 20px;
+}
+.espaçointerno h2{
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 3px 3px 4px black;
+}
+.trofeus:hover{
+
+     width: 500px;
+     cursor: pointer;
+
+}
+>>>>>>> Stashed changes
