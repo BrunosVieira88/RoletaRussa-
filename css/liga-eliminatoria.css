@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Roboto:wght@100&display=swap');
+body{
+	background-color: orange;
+	
+}
+
+.bloco{
+	font-family: 'Bodoni Moda', serif;
+	text-align: center;
+	width: 1000px;
+	height: 380px;
+	margin-left: 260px;
+	margin-top: 46px;
+	margin-bottom: 40px;
+	padding: 20px;
+	text-shadow: 2px 2px 2px black;
+	font-size: 22px;
+	background-color: #3A405A;
+	border-radius: 20px;
+	color: white;
+	box-shadow: 1px 1px 3px black;
+	text-align: justify;
+}
+.bloco2{
+
+	font-family: 'Bodoni Moda', serif;
+	text-align: center;
+	width: 1000px;
+	height: 568px;
+	margin-left: 260px;
+	margin-top: 46px;
+	margin-bottom: 40px;
+	padding: 20px;
+	text-shadow: 2px 2px 2px black;
+	font-size: 22px;
+	background-color: #3A405A;
+	border-radius: 20px;
+	color: white;
+	box-shadow: 1px 1px 3px black;
+	text-align: justify;
+
+
+}
+
+.centralizada{
+
+	margin-top: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	padding: 10px;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 3px 2px 5px yellow;
+}

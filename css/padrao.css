@@ -61,7 +61,7 @@ figcaption{
 /*aqui posiciono o Ligas no lugar*/
 #semove{
 	margin-top: -43px;
-	margin-left:390px;
+	margin-left:400px;
 	
 }
 /*aqui estylo da parte oculta */
@@ -96,7 +96,7 @@ figcaption{
 }
 /*deixa no lugar ligas e campeonato*/
 #semove2{
-	margin-left: 960px;
+	margin-left: 850px;
 	margin-top: -45px;
 }
 
