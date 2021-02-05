@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Roboto:wght@100&display=swap');
+body{
+	background-color: orange;
+	
+}
+
+#blocodecontato{
+	font-family: 'Bodoni Moda', serif;
+	text-align: center;
+	width: 500px;
+	height: 250px;
+	margin-left: 500px;
+	margin-top: 86px;
+	margin-bottom: 100px;
+	padding: 20px;
+	text-shadow: 2px 2px 2px black;
+	font-size: 22px;
+	background-color: #3A405A;
+	border-radius: 20px;
+	color: white;
+	box-shadow: 1px 1px 3px black;
+}
+
+h1{
+	font-size: 28px;
+	padding: 10px;
+	color: white;
+}

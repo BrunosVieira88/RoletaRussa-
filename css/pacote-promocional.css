@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Roboto:wght@100&display=swap');
+
+body{
+	background-color: orange;
+	
+}
+
+#bloco{
+	font-family: 'Bodoni Moda', serif;
+	text-align: center;
+	width: 950px;
+	height: 380px;
+	margin-left: 270px;
+	margin-top: 56px;
+	margin-bottom: 50px;
+	padding: 20px;
+	text-shadow: 2px 2px 2px black;
+	font-size: 22px;
+	background-color: #3A405A;
+	border-radius: 20px;
+	color: white;
+	box-shadow: 1px 1px 3px black;
+	line-height: 30px;
+
+}
+h1{
+	text-shadow: 1px 2px 2px orange;
+	font-size: 28px;
+}

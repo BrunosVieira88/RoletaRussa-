@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&family=Roboto:wght@100&display=swap');
+/*aqui defino a mudança nas tags de links */
+a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 3px 5px black;
+	font-weight: bold;
+	cursor: pointer;
+
+
+
+}
+a:hover{
+	color: #A4303F; 
+	text-decoration: underline ;
+	
+}
+/*aqui mudo as configurações do Roleta Russa no menu*/
+#roletarussalogo{
+	position: absolute;
+	width:220px; 
+	left: 25px;
+	margin-top:0px;
+
+}
+/*define o fundo do menu*/
+#fundo{
+	background:#3A405A;
+	width: 1210px;
+	height:50px;
+	margin-top: 1px;
+	margin-left: 138px;
+	border-radius: 2px;
+	box-shadow:  1px 1px 4px black;
+	
+}
+/*se quiser mexer na posição de todas as frases no menu é aqui*/
+figcaption{
+	position: relative;
+	top: -120px;
+}
+/*alinha home e informativo*/
+#lista{
+	margin-left: 400px;
+	cursor: pointer;
+	
+
+}
+/*faz todo o stylo do menu*/
+.linkmenu{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 85px;
+	font-size: 28px;
+	font-family: 'Bodoni Moda', serif;
+	margin-left: 10px;
+
+}
+
+/*aqui posiciono o Ligas no lugar*/
+#semove{
+	margin-top: -43px;
+	margin-left:390px;
+	
+}
+/*aqui estylo da parte oculta */
+#aparece{
+
+	padding: 5px;
+	font-size: 28px;
+	margin-left: 330px;
+	font-family: 'Bodoni Moda', serif;
+
+}
+/*formatando fundo e diminuindo as letras do menu oculto*/
+.diminui{
+	font-size: 18px;
+	margin-top: 5px;
+	background-color: #3A405A;
+	width: 150px;
+	box-shadow: 2px 2px 3px black;
+	border-radius: 10px;
+	text-align: center;
+	padding: 3px;
+
+}
+/*Configura Ligas*/
+.linkmenu2{
+	display: inline-block;
+	padding: 10px;
+	font-size: 28px;
+	font-family: 'Bodoni Moda', serif;
+	
+	
+}
+/*deixa no lugar ligas e campeonato*/
+#semove2{
+	margin-left: 960px;
+	margin-top: -45px;
+}
+
+/*mantem mata mata liga principal em oculto*/
+#escondido{
+	display: none;
+	background:#3A405A;
+	margin-left: 90px;
+	margin-top: -10px;
+	width: 200px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Bodoni Moda', serif;
+
+}
+
+
+
+
+
+
+/*Configura o rodape da pagina*/
+#controlerodape{
+	background:linear-gradient(#3A405A,#3A407A) ;
+	width:1349px; 
+	height:130px;
+	margin-top: -5px;
+
+
+}
+#rodape{
+	text-align:center;
+	font-size: 35px;
+	padding: 20px;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	font-family: 'Bodoni Moda', serif;
+
+
+	
+
+}
