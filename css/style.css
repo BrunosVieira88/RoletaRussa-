@@ -11,16 +11,20 @@ a{
 
 #video{
 
-	width: 1300px;
+	width: 1800px;
 	height: 500px;
+	margin-top: 300px;
 	
+}
 
-	
+#teste2{
+	margin-top: 100px;
 }
 #movimentavideo{
 	margin-left: 49px;
-	background: grey;
+	background: black;
 	box-shadow: 2px 2px 5px black;
+	
 }
 .aliga{
 	
